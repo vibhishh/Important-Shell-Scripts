@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SOURCE="/var/www/html"
-BACKUP_DIR="/backup"
+SOURCE="/home/mradul/shell_practice"
+BACKUP_DIR="/home/mradul/backup"
 DATE=$(date +%Y-%m-%d_%H-%M-%S)
 
 mkdir -p "$BACKUP_DIR"
